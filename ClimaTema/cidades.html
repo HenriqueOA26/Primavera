@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidades | ClimaTema</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">ClimaTema</a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="cidades.html">Cidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="climas.html">Climas</a>
+                </li>
+            </ul>
+
+            <form class="d-flex" role="search"
+                action="cidades.html" method="get">
+                <input class="form-control me-2" type="search"
+                    name="busca" placeholder="Pesquisar cidade..."
+                    aria-label="Pesquisar cidade">
+                <button class="btn btn-light text-primary"
+                    type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<header class="container py-5">
+    <div class="p-4 p-md-5 bg-white rounded-4 shadow-sm border">
+        <span class="badge text-bg-primary mb-3">Explore a região</span>
+        <h1 class="display-5 fw-bold">Conheça nossas cidades</h1>
+        <p class="lead text-secondary mb-0">
+            Descubra municípios da Região Metropolitana de Campinas
+            e conheça um pouco mais sobre cada lugar.
+        </p>
+    </div>
+</header>
+
+<main class="container pb-5">
+    <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="./img/americana.png"
+                    class="card-img-top" alt="Vista de Americana"
+                    style="height: 230px; object-fit: cover;">
+
+                <div class="card-body">
+                    <span class="badge text-bg-primary mb-2">
+                        São Paulo
+                    </span>
+                    <h5 class="card-title fw-bold">Americana</h5>
+                    <p class="card-text text-secondary">
+                        Município do interior paulista, conhecido
+                        por sua história ligada à indústria têxtil
+                        e por integrar a Região Metropolitana de Campinas.
+                    </p>
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+                    <a href="https://www.google.com/maps/place/Americana+-+Vila+Praia+Azul,+Americana+-+SP/data=!4m2!3m1!1s0x94c890ab2f6cf6c5:0xb2d4b062498ecda8?sa=X&ved=1t:242&ictx=111"
+                        class="btn btn-outline-primary w-100">
+                        Localização no Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="./img/santa barbara.png"
+                    class="card-img-top" alt="Vista de Santa Bárbara d'Oeste"
+                    style="height: 230px; object-fit: cover;">
+
+                <div class="card-body">
+                    <span class="badge text-bg-primary mb-2">
+                        São Paulo
+                    </span>
+                    <h5 class="card-title fw-bold">
+                        Santa Bárbara d'Oeste
+                    </h5>
+                    <p class="card-text text-secondary">
+                        Cidade do interior de São Paulo com
+                        identidade histórica e cultural própria,
+                        integrante da Região Metropolitana de Campinas.
+                    </p>
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+                    <a href="https://www.google.com/maps/place/Santa+B%C3%A1rbara+d'Oeste,+SP/@-22.7556976,-47.4718552,13z/data=!3m1!4b1!4m6!3m5!1s0x94c89d97dedd345f:0xfa0858713f645375!8m2!3d-22.7560892!4d-47.4153925!16s%2Fg%2F11bc57y3_4?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D"
+                        class="btn btn-outline-primary w-100">
+                        Localização no Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="./img/nova odessa.png"
+                    class="card-img-top" alt="Vista de Nova Odessa"
+                    style="height: 230px; object-fit: cover;">
+
+                <div class="card-body">
+                    <span class="badge text-bg-primary mb-2">
+                        São Paulo
+                    </span>
+                    <h5 class="card-title fw-bold">Nova Odessa</h5>
+                    <p class="card-text text-secondary">
+                        Município paulista conhecido por suas
+                        áreas verdes, sua história e seu
+                        desenvolvimento urbano e industrial.
+                    </p>
+                </div>
+
+                <div class="card-footer bg-white border-0 p-3">
+                    <a href="https://www.google.com/maps/place/Nova+Odessa,+SP,+13460-000/@-22.7889037,-47.3332326,13z/data=!3m1!4b1!4m6!3m5!1s0x94c897f53ed01bf9:0x7470d17324b3b088!8m2!3d-22.7852457!4d-47.3007143!16s%2Fg%2F11bc5b9fn3?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D"
+                        class="btn btn-outline-primary w-100">
+                        Localização no Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer class="bg-white border-top py-4">
+    <div class="container text-center text-secondary">
+        <small>ClimaTema — Conheça sua região.</small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
